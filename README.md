@@ -52,9 +52,6 @@ layers:
 None
 Serverless: Run the "serverless" command to setup monitoring, troubleshooting and testing.
 
-Stopped
-https://serverless-stack.com/chapters/add-a-create-note-api.html
-
 username pedro@taglivros.com.br
 password Passw0rd!
 user-pool-id us-east-1_u0WhuIEDY
@@ -65,3 +62,6 @@ invoke-url https://ly55wbovq4.execute-api.us-east-1.amazonaws.com/prod
 api-gateway-region us-east-1
 
 npx aws-api-gateway-cli-test --username pedro@taglivros.com.br --password Passw0rd! --user-pool-id us-east-1_u0WhuIEDY --app-client-id 30cvhbm2p8mvmmogpl2a9lkiir --cognito-region us-east-1 --identity-pool-id us-east-1:b25e2bdc-9ea2-4e50-b7b6-1e5e9462cdc4 --invoke-url https://rn559aq7p0.execute-api.us-east-1.amazonaws.com/prod --api-gateway-region us-east-1 --path-template /notes --method POST --body "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}"
+
+Stopped
+https://serverless-stack.com/chapters/create-a-login-page.html
